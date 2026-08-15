@@ -10,3 +10,5 @@ ctf-challenge/
 ├── Dockerfile            ← optional, for CTFd or any container host
 └── .gitignore
 ```
+
+Umm basically this challenge involves reverse engineering an encryption thru mostly trial and error.
