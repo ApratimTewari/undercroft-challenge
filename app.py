@@ -82,6 +82,6 @@ def api_encrypt():
     return jsonify({"result": result})
 
 
-if __name__ == "__main__":
-    # Local dev only. In production use gunicorn (see README/Procfile).
+""" if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), debug=True)
+"""
